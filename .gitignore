@@ -1,0 +1,19 @@
+# General
+.DS_Store
+.env
+.env.*
+*.log
+
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Rust
+target/
+Cargo.lock
