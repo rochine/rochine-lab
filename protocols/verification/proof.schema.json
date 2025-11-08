@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RochineProof",
+  "type": "object",
+  "required": ["task_id", "executor", "timestamp", "artifacts", "hash", "validators"],
+  "properties": {
+    "task_id": { "type": "string" },
+    "executor": { "type": "string", "description": "Agent or robot id (pubkey)" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "location": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+    "artifacts": { "type": "array", "items": { "type": "string", "description": "IPFS/Arweave CID" } },
+    "hash": { "type": "string", "description": "BLAKE3/SHA-256 over canonical payload" },
+    "validators": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+  }
+}
