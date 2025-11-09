@@ -15,3 +15,10 @@ A live research lab for **verifiable automation** — experimenting with task va
 ---
 
 _“Automation should be verifiable — not blind.”_
+
+
+### 🔗 Rochine Ecosystem
+- [Rochine Lab](https://github.com/rochine/rochine-lab)
+- [Rochine Console](https://github.com/rochine/rochine-console)
+- [Rochine RobotLink Ref](https://github.com/rochine/rochine-robotlink-ref)
+- [Rochine Hub](https://github.com/rochine/rochine-hub)
